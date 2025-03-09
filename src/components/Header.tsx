@@ -31,7 +31,7 @@ export function Header() {
           <div className="ml-4 flex items-center gap-2">
             <div className="h-8 w-8 rounded-full bg-gradient-to-r from-dotnet-purple to-dotnet-blue p-[2px]">
               <div className="h-full w-full rounded-full bg-white flex items-center justify-center">
-                <span className="text-xs font-semibold text-dotnet-purple">MA</span>
+                <span className="text-xs font-semibold text-dotnet-purple">TP</span>
               </div>
             </div>
             <span className="text-sm hidden sm:inline-block">TP à rendre
