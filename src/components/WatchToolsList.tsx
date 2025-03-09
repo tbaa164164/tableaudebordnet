@@ -1,7 +1,6 @@
-
+import { Wrench, Rss, Mail, Github, MessageSquare, BarChart } from 'lucide-react';
 import { watchTools } from '@/lib/data';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tool, Rss, Mail, Github, MessageSquare, BarChart } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function WatchToolsList() {
@@ -18,7 +17,7 @@ export function WatchToolsList() {
       case 'bar-chart':
         return <BarChart className="h-4 w-4 text-yellow-500" />;
       default:
-        return <Tool className="h-4 w-4 text-slate-500" />;
+        return <Wrench className="h-4 w-4 text-slate-500" />;
     }
   };
 
@@ -41,7 +40,7 @@ export function WatchToolsList() {
     <Card className="shadow-card hover:shadow-hover transition-shadow duration-300">
       <CardHeader className="pb-2">
         <CardTitle className="text-lg flex items-center gap-2">
-          <Tool className="h-5 w-5 text-dotnet-blue" />
+          <Wrench className="h-5 w-5 text-dotnet-blue" />
           Outils de Veille Utilisés
         </CardTitle>
       </CardHeader>
