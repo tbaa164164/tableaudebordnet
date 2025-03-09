@@ -1,4 +1,3 @@
-
 import { SecurityAlert, UpdateFeature, InfoSource, TechnologyData, ActivityTrend, Influencer, WatchTool } from './types';
 
 export const securityAlerts: SecurityAlert[] = [
@@ -210,6 +209,7 @@ export const watchTools: WatchTool[] = [
   }
 ];
 
-export const lastUpdateDate = '2 février 2024';
+export const lastUpdateDate = '9 mars 2025';
 export const newNotificationsCount = 15;
 export const savedArticlesCount = 124;
+

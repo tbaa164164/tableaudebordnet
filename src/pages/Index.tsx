@@ -41,8 +41,12 @@ const Index: React.FC = () => {
       </main>
       
       <footer className="bg-white border-t border-slate-100 py-4">
-        <div className="max-w-7xl mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2024 - Tableau de Bord de Veille Technologique .NET</p>
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <p className="text-sm text-muted-foreground">© 2025 - Tableau de Bord de Veille Technologique .NET</p>
+          <div className="mt-2 text-xs text-muted-foreground">
+            <p>Réalisé par : Mor Talla Ba et Arona Ndiaye</p>
+            <p>DIC3 Informatique</p>
+          </div>
         </div>
       </footer>
     </div>
