@@ -1,16 +1,16 @@
-
 import { lastUpdateDate, newNotificationsCount, savedArticlesCount } from '@/lib/data';
 import { Bell, Bookmark } from 'lucide-react';
 import { motion } from 'framer-motion';
-
 export function Header() {
-  return (
-    <motion.header 
-      className="py-4 px-6 bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-10"
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
+  return <motion.header className="py-4 px-6 bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-10" initial={{
+    opacity: 0,
+    y: -20
+  }} animate={{
+    opacity: 1,
+    y: 0
+  }} transition={{
+    duration: 0.5
+  }}>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-gradient">Tableau de Bord - Veille .NET</h1>
@@ -34,10 +34,10 @@ export function Header() {
                 <span className="text-xs font-semibold text-dotnet-purple">MA</span>
               </div>
             </div>
-            <span className="text-sm hidden sm:inline-block">Matthieu Aradmin</span>
+            <span className="text-sm hidden sm:inline-block">TP à rendre
+          </span>
           </div>
         </div>
       </div>
-    </motion.header>
-  );
+    </motion.header>;
 }
